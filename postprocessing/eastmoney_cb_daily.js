@@ -25,4 +25,4 @@ try {
 }
 
 // Remove the downloaded file
-await removeFile(filename)
+// await removeFile(filename)
