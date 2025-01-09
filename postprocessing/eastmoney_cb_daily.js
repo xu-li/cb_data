@@ -30,7 +30,7 @@ try {
             const item = content.result.data[i]
             const obj = {}
             for (let j = 0; j < ATTRIBUTES.length; j++) {
-                obj[ATTRIBUTES[j]] = item[j]
+                obj[ATTRIBUTES[j]] = item[ATTRIBUTES[j]]
             }
             content.result.data[i] = obj
         }
