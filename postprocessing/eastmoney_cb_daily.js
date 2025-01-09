@@ -2,7 +2,7 @@
 // Has helper functions for manipulating csv, txt, json, excel, zip, and image files
 import { writeJSON, removeFile, readTXT } from 'https://deno.land/x/flat@0.0.14/mod.ts'
 
-const REGEX_JQUERY = /jQuery\((.*?)\);/g
+const REGEX_JQUERY = /^jQuery\((.*?)\);$/
 
 const today = new Date().toISOString().split('T')[0]
 
